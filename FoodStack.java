@@ -1,6 +1,8 @@
 package fastfood;
 
-// Stack: the last food added is the first food removed (LIFO).
+// This class manages the food trays using a Stack.
+// Stack follows LIFO: Last In, First Out.
+// The storage can hold a maximum of 8 food trays.
 public class FoodStack {
     Food[] foods = new Food[8]; // Storage holds only eight trays.
     int top = -1;               // -1 means storage is empty.
