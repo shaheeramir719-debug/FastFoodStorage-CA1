@@ -32,7 +32,10 @@ public class Main {
                     System.out.println("Storage is full!");
                     continue;
                 }
-
+                
+              // Display the menu so the user can choose an operation.
+              // the menu repeats until the user enters 0 to exit.  
+                
                 System.out.print("Food name (Burger, Pizza, Fries, Sandwich, Hotdog): ");
                 String name = input.nextLine().trim();
                 if (!name.equalsIgnoreCase("Burger") &&
